@@ -1,0 +1,26 @@
+# GHA Workflow: test learn-go-with-tests Go project
+name: Go
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  learn-go-with-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - run:  echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+
+      - name: Checkout Code 
+      - uses: actions/checkout@v4
+
+      - name: Set up Go Environment
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.23.2'
+
+      - run: echo "🖥️ The workflow is now ready to test your code on the runner." 
+
+      - name: Run Tests
+        run: go test -v ./..
+        working-directory: ./learn-go-with-tests

@@ -1,5 +1,3 @@
-![CI Workflow](https://github.com/yagosansz/continuous-learning-go/actions/workflows/go.yml/badge.svg?branch=main&event=push)
-
 # Go Workshop (Golang) 🚀
 Code generated as part of the Go workshop I conducted for the Brazil IT Remote community.
 
@@ -53,3 +51,8 @@ Ygor Almeida has:
 ## 📍 Meeting Place
 
 - **Channel:** ⁠🤓| Go - Workshop on Discord
+
+## GitHub Actions - Workflow Status
+
+### Continuos Integration (CI)
+![CI Workflow](https://github.com/yagosansz/continuous-learning-go/actions/workflows/go.yml/badge.svg?branch=main&event=push)

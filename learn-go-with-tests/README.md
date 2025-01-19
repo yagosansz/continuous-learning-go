@@ -1,3 +1,5 @@
+![CI Workflow](https://github.com/yagosansz/continuous-learning-go/actions/workflows/go.yml/badge.svg?branch=main&event=push)
+
 # Go Workshop (Golang) 🚀
 Code generated as part of the Go workshop I conducted for the Brazil IT Remote community.
 
